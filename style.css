@@ -80,12 +80,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -100,112 +100,113 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+	display: block;
 }
 
 body {
-    line-height: 1;
+	line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 body {
-    height: 100vh;
-    background-color: #011627;
-    background-image: url(images/outside-duotone.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	height: 100vh;
+	background-color: #011627;
+	background-image: url(images/outside-duotone.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #title {
-    color: #FFFFFC;
-    text-align: center;
-    padding-top: 120px;
-    font-family: 'Lobster', cursive;
+	color: #fffffc;
+	text-align: center;
+	padding-top: 120px;
+	font-family: 'Lobster', cursive;
 }
 
 #big-title {
-    font-size: 90px;
+	font-size: 90px;
+	text-shadow: 2px 2px #000;
 }
 
 #small-title {
-    padding-top: 80px;
-    margin-bottom: 30px;
-    font-size: 45px;
-    font-family: 'Varela Round', sans-serif;
+	padding-top: 80px;
+	margin-bottom: 30px;
+	font-size: 45px;
+	font-family: 'Varela Round', sans-serif;
+	text-shadow: 2px 2px #000;
 }
 
 #middle {
-    width: 100%;
-    height: 380px;
-    background-image: url(images/inside.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: grayscale(30%);
-    background-size: cover;
-
+	width: 100%;
+	height: 380px;
+	background-image: url(images/inside.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	filter: grayscale(30%);
+	background-size: cover;
 }
 
 #icons {
-    width: 100%;
+	width: 100%;
 
-    margin-top: 20px;
-    text-align: center;
+	margin-top: 20px;
+	text-align: center;
 }
 
 #icon-left,
 #icon-right {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    color: transparent;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 150px;
-    font-size: 25px;
-    font-family: 'Lobster', cursive;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	color: transparent;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 150px;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
 }
 
 #icon-left {
-    background-image: url(images/silverware-1667988_640.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(images/silverware-1667988_640.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #icon-right {
-    border-radius: 50%;
-    background-image: url(images/location.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	border-radius: 50%;
+	background-image: url(images/location.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #icon-left:hover,
 #icon-right:hover {
-    background-image: none;
-    background-color: #8FC0A9;
-    color: #222;
+	background-image: none;
+	background-color: #8fc0a9;
+	color: #222;
 }
