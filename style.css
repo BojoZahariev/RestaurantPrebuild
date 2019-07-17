@@ -165,7 +165,7 @@ body {
 	background-image: url(images/inside.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	filter: grayscale(30%);
+	filter: grayscale(60%);
 	background-size: cover;
 }
 
