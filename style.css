@@ -170,9 +170,9 @@ body {
 }
 
 #icons {
+	position: absolute;
 	width: 100%;
-
-	margin-top: 20px;
+	bottom: 40px;
 	text-align: center;
 }
 
@@ -210,4 +210,31 @@ body {
 	background-image: none;
 	background-color: #8fc0a9;
 	color: #222;
+}
+
+@media all and (max-width: 768px) {
+	#title {
+		padding-top: 50px;
+	}
+
+	#big-title {
+		font-size: 60px;
+	}
+
+	#small-title {
+		padding-top: 50px;
+		margin-bottom: 50px;
+		font-size: 30px;
+	}
+
+	#middle {
+		height: 280px;
+	}
+
+	#icon-left,
+	#icon-right {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+	}
 }
