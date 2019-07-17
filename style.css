@@ -188,6 +188,7 @@ body {
 	font-size: 25px;
 	font-family: 'Lobster', cursive;
 	user-select: none;
+	text-decoration: none;
 }
 
 #icon-left {
@@ -212,6 +213,22 @@ body {
 	color: #222;
 }
 
+#icon-left-menu,
+#icon-right-location {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 150px;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+	user-select: none;
+	text-decoration: none;
+	background-color: #8fc0a9;
+	color: #222;
+}
+
 @media all and (max-width: 768px) {
 	#title {
 		padding-top: 50px;
@@ -232,7 +249,9 @@ body {
 	}
 
 	#icon-left,
-	#icon-right {
+	#icon-right,
+	#icon-left-menu,
+	#icon-right-location {
 		height: 100px;
 		width: 100px;
 		line-height: 100px;
