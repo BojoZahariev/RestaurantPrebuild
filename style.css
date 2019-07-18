@@ -229,6 +229,17 @@ body {
 	color: #222;
 }
 
+#menu-background {
+	height: 90vh;
+	width: 600px;
+	margin: auto;
+	background-color: #011627;
+	background-image: url(images/menu.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 @media all and (max-width: 768px) {
 	#title {
 		padding-top: 50px;
