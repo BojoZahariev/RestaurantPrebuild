@@ -130,13 +130,17 @@ table {
 	border-spacing: 0;
 }
 
-body {
+#big-container {
+	margin: 0px;
+	padding: 0px;
 	height: 100vh;
+	width: 100%;
 	background-color: #011627;
 	background-image: url(images/outside-duotone.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center;
 }
 
 #title {
@@ -213,6 +217,8 @@ body {
 	color: #222;
 }
 
+/*MENU*/
+
 #icon-left-menu,
 #icon-right-location {
 	height: 150px;
@@ -240,6 +246,52 @@ body {
 	background-size: cover;
 }
 
+#menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 220px;
+	flex-wrap: wrap;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.menu-item,
+.menu-price {
+	color: #fffffc;
+	font-size: 25px;
+	flex-basis: 50%;
+	padding-top: 20px;
+}
+
+.menu-item {
+	display: inline-block;
+	position: relative;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+/*LOCATION*/
+
+#address,
+#hours {
+	padding-top: 80px;
+	margin-bottom: 30px;
+	font-size: 45px;
+	font-family: 'Varela Round', sans-serif;
+	text-shadow: 2px 2px #000;
+	color: #fffffc;
+}
+
+#map {
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	background-color: #011627;
+	background-image: url(images/map.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 @media all and (max-width: 768px) {
 	#title {
 		padding-top: 50px;
@@ -249,7 +301,8 @@ body {
 		font-size: 60px;
 	}
 
-	#small-title {
+	#small-title,
+	#address {
 		padding-top: 50px;
 		margin-bottom: 50px;
 		font-size: 30px;
@@ -266,5 +319,16 @@ body {
 		height: 100px;
 		width: 100px;
 		line-height: 100px;
+	}
+
+	#menu-background,
+	#map {
+		width: 100%;
+	}
+
+	#hours,
+	#address {
+		font-size: 20px;
+		padding-top: 0px;
 	}
 }
