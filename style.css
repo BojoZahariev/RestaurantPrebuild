@@ -161,7 +161,7 @@ table {
 	margin-bottom: 30px;
 	font-size: 45px;
 	font-family: 'Varela Round', sans-serif;
-	text-shadow: 2px 2px #000;
+	text-shadow: 2px 2px #6ca6c1;
 }
 
 #middle {
@@ -172,8 +172,8 @@ table {
 	background-repeat: no-repeat;
 	filter: grayscale(60%);
 	background-size: cover;
-	border-top: 2px solid #fffffc;
-	border-bottom: 2px solid #fffffc;
+	border-top: 2px solid #6ca6c1;
+	border-bottom: 2px solid #6ca6c1;
 }
 
 #icons {
@@ -221,7 +221,7 @@ table {
 #icon-left:hover,
 #icon-right:hover {
 	background-image: none;
-	background-color: #8fc0a9;
+	background-color: #6ca6c1;
 	color: #222;
 }
 
@@ -256,7 +256,7 @@ table {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border: 2px solid #fffffc;
+	border: 2px solid #6ca6c1;
 }
 
 #menu {
@@ -303,7 +303,7 @@ table {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border: 2px solid #fffffc;
+	border: 2px solid #6ca6c1;
 }
 
 #icon-right-location:active {
