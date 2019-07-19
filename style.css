@@ -171,6 +171,8 @@ table {
 	background-repeat: no-repeat;
 	filter: grayscale(60%);
 	background-size: cover;
+	border-top: 2px solid #fffffc;
+	border-bottom: 2px solid #fffffc;
 }
 
 #icons {
@@ -244,6 +246,7 @@ table {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border: 2px solid #fffffc;
 }
 
 #menu {
@@ -290,6 +293,7 @@ table {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border: 2px solid #fffffc;
 }
 
 @media all and (max-width: 768px) {
