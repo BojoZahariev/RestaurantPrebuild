@@ -151,6 +151,7 @@ table {
 }
 
 #big-title {
+	color: #6ca6c1;
 	font-size: 90px;
 	text-shadow: 2px 2px #000;
 }
@@ -328,6 +329,10 @@ table {
 	#menu-background,
 	#map {
 		width: 100%;
+	}
+
+	#menu {
+		padding-top: 150px;
 	}
 
 	#hours,
