@@ -198,6 +198,11 @@ table {
 	text-decoration: none;
 }
 
+#icon-left:active,
+#icon-right:active {
+	font-size: 30px;
+}
+
 #icon-left {
 	background-image: url(images/silverware-1667988_640.png);
 	background-position: center center;
@@ -236,6 +241,10 @@ table {
 	text-decoration: none;
 	background-color: #8fc0a9;
 	color: #222;
+}
+
+#icon-left-menu:active {
+	font-size: 30px;
 }
 
 #menu-background {
@@ -295,6 +304,10 @@ table {
 	background-repeat: no-repeat;
 	background-size: cover;
 	border: 2px solid #fffffc;
+}
+
+#icon-right-location:active {
+	font-size: 30px;
 }
 
 @media all and (max-width: 768px) {
