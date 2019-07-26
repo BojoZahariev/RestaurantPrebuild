@@ -22,6 +22,8 @@ const middleDiv = () => {
     return middle
 }
 
+
+/*
 //put all that in the index.js
 const iconsDiv = () => {
     let icons = document.createElement('div');
@@ -39,6 +41,7 @@ const iconsDiv = () => {
 
     return icons
 }
+*/
 
 //get all in one function
 //change the class of the home and the one in css to class instead of id
@@ -47,7 +50,7 @@ const bigContainer = () => {
     big.classList.add('big-container');
     big.appendChild(titleDiv());
     big.appendChild(middleDiv());
-    big.appendChild(iconsDiv());
+    //big.appendChild(iconsDiv());
 
     return big
 }
