@@ -310,6 +310,51 @@ table {
 	font-size: 30px;
 }
 
+
+
+@media all and (max-height: 870px) {
+
+	#title {
+		padding-top: 20px;
+	}
+
+	#menu {
+		padding-top: 70px;
+	}
+
+	#address,
+	#hours {
+		padding-top: 20px;
+		margin-bottom: 10px;
+		font-size: 35px;
+		font-family: 'Varela Round', sans-serif;
+		text-shadow: 2px 2px #000;
+		color: #fffffc;
+	}
+
+	#map {
+		height: 300px;
+		width: 500px;
+		margin: auto;
+	}
+
+	#icon-left,
+	#icon-right,
+	#icon-left-menu,
+	#icon-right-location {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+	}
+
+	#icons {
+		
+		bottom: 10px;
+		text-align: center;
+	}
+}
+
+
 @media all and (max-width: 768px) {
 	#title {
 		padding-top: 50px;
